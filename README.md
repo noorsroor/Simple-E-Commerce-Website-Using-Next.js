@@ -18,8 +18,8 @@ This is a simple e-commerce website built using Next.js. It includes product lis
 
 ### 1. Clone the repository:
 ```sh
-git clone https://github.com/yourusername/nextjs-ecommerce.git
-cd nextjs-ecommerce
+git clone https://github.com/noorsroor/Simple-E-Commerce-Website-Using-Next.js.git
+cd my-app
 ```
 
 ### 2. Install dependencies:
@@ -45,12 +45,13 @@ yarn dev
 ```
 /nextjs-ecommerce
 │── pages
-│   ├── index.js           # Home Page
+│   ├── page.js           # Home Page
 │   ├── products
-│   │   ├── index.js       # Products List Page (SSR)
-│   │   ├── [id].js        # Product Details Page (Dynamic Routing)
+│   │   ├── page.js       # Products List Page (SSR)
+│   │   ├── [id]
+|   |       ├──page.js     # Product Details Page (Dynamic Routing)
 │   ├── about.js           # About Us Page
-│   ├── 404.js             # Custom 404 Page
+│   ├── not-found.js             # Custom 404 Page
 │── components
 │   ├── Navbar.js          # Navigation Bar
 │   ├── ProductCard.js     # Product Card Component
